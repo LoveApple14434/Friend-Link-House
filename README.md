@@ -174,3 +174,4 @@ npm run build
 | f2h2h1's blog      | https://f2h2h1.github.io       | 覆舟水是苍生泪，不到横流君不知       | https://f2h2h1.github.io/avatar.png                                                                    |                                          | net         |
 | 精灵王             | https://jingling.im            | 专注于全栈开发技术分享和开源项目讨论 | https://jingling.im/assets/jingling.svg                                                                |                                          | net         |
 | Guava’s Blog       | https://www.humbleguava.top    | Guava’s Blog                         |                                                                                                        | https://www.humbleguava.top/rss/feed.xml | friend      |
+| LoveApple的主页     | https://loveapple.icu         | 一条喜欢苹果的水煮鱼              | https://loveapple.icu/img/machinist.jpg     | https://loveapple.icu/rss.xml | friend   |
