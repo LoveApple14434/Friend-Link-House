@@ -175,3 +175,4 @@ npm run build
 | 精灵王             | https://jingling.im            | 专注于全栈开发技术分享和开源项目讨论 | https://jingling.im/assets/jingling.svg                                                                |                                          | net         |
 | Guava’s Blog       | https://www.humbleguava.top    | Guava’s Blog                         |                                                                                                        | https://www.humbleguava.top/rss/feed.xml | friend      |
 | LoveApple的主页     | https://loveapple.icu         | 一条喜欢苹果的水煮鱼              | https://loveapple.icu/img/machinist.jpg     | https://loveapple.icu/rss.xml | friend   |
+| 龙场茶室       | https://blog.peterchen97.cn   | 一只练习时长六年半的 Web 开发练习生，这是他的一些杂文，欢迎交流~  |          https://blog.peterchen97.cn/favicon.svg                | https://blog.peterchen97.cn/rss.xml | net      |
