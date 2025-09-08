@@ -2,8 +2,8 @@ body {
   margin: 0;
   overflow-x: hidden;
   color: #2c323c;
-  background-color: #f6f6f6;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif, Arial;
+  background-color: #ffe2e7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft JhengHei', sans-serif;
 }
 
 html body table td,
@@ -50,7 +50,7 @@ blockquote {
   margin: 20px auto;
   color: #555555;
   padding: 3px 3px 3px 12px;
-  border-left: 8px solid #84b3ff;
+  border-left: 8px solid #f7cdd4;
   position: relative;
   background: #f0f0f0;
 }
@@ -85,17 +85,18 @@ img {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: rgba(175, 175, 175, 0.75);
+  background-color: #fe92d350;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   border-radius: 5px;
-  background-color: rgba(100, 100, 100, 0.85);
+  background-color: #fe92d350;
 }
 
 a {
   color: #3273dc;
   text-decoration: none;
+  background-color: transparent;
 }
 
 a:hover {

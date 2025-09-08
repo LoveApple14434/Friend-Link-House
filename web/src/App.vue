@@ -8,13 +8,13 @@ import opmlJson from "./assets/opml.json";
   <header id="header">
     <div id="header-inner">
       <span id="logo-left">
-        <img id="logo" src="./assets/logo.png" alt="Logo" />
+        <img id="logo" src="./assets/logo.jpg" alt="Logo" />
         <span id="logo-text">{{ title }}</span>
       </span>
       <a
         id="logo-right"
         target="_blank"
-        href="https://github.com/idealclover/blogroll"
+        href="https://github.com/LoveApple14434/Friend-Link-House"
       >
         <img id="logo-github" src="./assets/github.png" alt="Logo" />
         <span id="logo-text">GitHub</span>
@@ -27,8 +27,8 @@ import opmlJson from "./assets/opml.json";
     <main>
       <div id="main">
         <section class="timeline" id="archives">
-          <time class="timeline-item timeline-item--year"
-            >{{ dataJson[0].pubDateYY }}年{{ dataJson[0].pubDateMM }}月</time
+          <time class="timeline-item timeline-item__year"
+            >&#160&#160{{ dataJson[0].pubDateYY }}年{{ dataJson[0].pubDateMM }}月</time
           >
           <div v-for="(item, index) in dataJson">
             <article class="timeline-item">
@@ -47,12 +47,12 @@ import opmlJson from "./assets/opml.json";
               </h2>
             </article>
             <time
-              class="timeline-item timeline-item--year"
+              class="timeline-item timeline-item__year"
               v-if="
                 index != dataJson.length - 1 &&
                 item.pubDateMM != dataJson[index + 1].pubDateMM
               "
-              >{{ dataJson[index + 1].pubDateYY }}年{{
+              >&#160&#160{{ dataJson[index + 1].pubDateYY }}年{{
                 dataJson[index + 1].pubDateMM
               }}月</time
             >
@@ -104,8 +104,8 @@ export default {
   data() {
     return {
       // TODO: 需修改的页面配置
-      title: "idealclover 友链屋",
-      info: "仅收录友链博客文章，不代表翠翠本人观点",
+      title: "LoveApple小报",
+      info: "仅收录友链博客文章，不代表本人观点",
       list: "友链列表",
     };
   },
@@ -144,20 +144,33 @@ export default {
 }
 
 .timeline-item {
-  display: block;
   position: relative;
-  margin-bottom: 0.8rem;
-  padding-left: 1.5rem;
-  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
   -moz-box-align: center;
   -o-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  height: 1.5em;
+  background-color: white;
+  border-radius:8px;
 }
 
-.timeline-item:before {
+/* .timeline-item:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -176,9 +189,10 @@ export default {
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
+} */
 
 .timeline-item__time {
+  margin-left: 1.8em;
   display: inline-block;
   width: 3.5rem;
   vertical-align: middle;
@@ -190,13 +204,13 @@ export default {
   transform: translateY(3%);
 }
 
-.timeline-item--year {
+.timeline-item__year {
   font-size: 1.2rem;
 }
 
 .timeline-item__title {
   display: inline-block;
-  margin: 0;
+  margin: 1em;
   width: calc(100% - 4.5rem);
   font-size: 1em;
   font-weight: normal;
