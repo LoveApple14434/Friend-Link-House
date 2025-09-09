@@ -35,10 +35,3 @@ Forked from [idealclover/Friend-Link-House](https://github.com/idealclover/Frien
 | YDJSIR | https://www.ydjsir.com.cn/ | 此时相望不相闻，愿逐月华流照君 | https://www.ydjsir.com.cn/img/avatar.png | https://www.ydjsir.com.cn/atom.xml | Friend |
 | 翠翠idealclover | https://idealclover.top/ | Stay simple, stay naive. | https://cdn.idealclover.cn/Projects/homepage/icon.png | https://idealclover.top/feed | Friend |
 | IT侠互助协会 | https://itxia.club/ | 侠之大者，为国为民；侠之小者，为友为邻。 | https://nju.itxia.cn/img/itxia-logo.png | | Organization |
-
-<script>
-// 此表格可供JavaScript爬取使用
-// 表格结构遵循以下格式：
-// | 名称 | 链接 | 描述 | 头像 |
-// 后续行每行代表一个友链
-</script>

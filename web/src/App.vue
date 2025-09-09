@@ -7,10 +7,14 @@ import opmlJson from "./assets/opml.json";
 <template>
   <header id="header">
     <div id="header-inner">
-      <span id="logo-left">
+      <a
+        id="logo-left"
+        target="_blank"
+        href="https://loveapple.icu"
+      >
         <img id="logo" src="./assets/logo.jpg" alt="Logo" />
         <span id="logo-text">{{ title }}</span>
-      </span>
+      </a>
       <a
         id="logo-right"
         target="_blank"
@@ -104,7 +108,7 @@ export default {
   data() {
     return {
       // TODO: 需修改的页面配置
-      title: "LoveApple小报",
+      title: "LoveApple",
       info: "仅收录友链博客文章，不代表本人观点",
       list: "友链列表",
     };
@@ -165,7 +169,8 @@ export default {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  height: 2.2em;
+  min-height: 1.2rem;
+  height: 2.5rem;
   background-color: white;
   border-radius:8px;
 }
@@ -216,7 +221,7 @@ export default {
   font-weight: normal;
   vertical-align: middle;
 }
-
+ 
 .timeline-item__link {
   color: #2c323c;
 }
