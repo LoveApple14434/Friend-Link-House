@@ -165,7 +165,7 @@ export default {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  height: 1.5em;
+  height: 2.2em;
   background-color: white;
   border-radius:8px;
 }
