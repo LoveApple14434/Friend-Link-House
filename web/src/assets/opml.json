@@ -1,0 +1,32 @@
+[
+  {
+    "title": "LoveApple",
+    "htmlUrl": "https://loveapple.icu/",
+    "xmlUrl": "https://loveapple.icu/atom.xml",
+    "status": "active"
+  },
+  {
+    "title": "AritxOnly",
+    "htmlUrl": "https://www.aritxonly.top/",
+    "xmlUrl": "",
+    "status": "active"
+  },
+  {
+    "title": "YDJSIR",
+    "htmlUrl": "https://www.ydjsir.com.cn/",
+    "xmlUrl": "https://www.ydjsir.com.cn/atom.xml",
+    "status": "active"
+  },
+  {
+    "title": "翠翠idealclover",
+    "htmlUrl": "https://idealclover.top/",
+    "xmlUrl": "https://idealclover.top/feed",
+    "status": "active"
+  },
+  {
+    "title": "IT侠互助协会",
+    "htmlUrl": "https://itxia.club/",
+    "xmlUrl": "",
+    "status": "active"
+  }
+]

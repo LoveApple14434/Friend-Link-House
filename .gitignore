@@ -27,8 +27,3 @@ coverage
 *.sln
 *.sw?
 
-web/public/opml.xml
-web/public/rss.xml
-web/public/linkList.json
-web/src/assets/opml.json
-web/src/assets/data.json
