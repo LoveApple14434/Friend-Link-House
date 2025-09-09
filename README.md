@@ -35,3 +35,4 @@ Forked from [idealclover/Friend-Link-House](https://github.com/idealclover/Frien
 | YDJSIR | https://www.ydjsir.com.cn/ | 此时相望不相闻，愿逐月华流照君 | https://www.ydjsir.com.cn/img/avatar.png | https://www.ydjsir.com.cn/atom.xml | Friend |
 | 翠翠idealclover | https://idealclover.top/ | Stay simple, stay naive. | https://cdn.idealclover.cn/Projects/homepage/icon.png | https://idealclover.top/feed | Friend |
 | IT侠互助协会 | https://itxia.club/ | 侠之大者，为国为民；侠之小者，为友为邻。 | https://nju.itxia.cn/img/itxia-logo.png | | Organization |
+| kakaa | https://blog.kakaa.fun/ | What a difference a day made | https://blog.kakaa.fun/assets/img/avatar/profile.jpg | https://blog.kakaa.fun/feed.xml | Friend |
