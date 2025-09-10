@@ -41,6 +41,15 @@
         "xmlUrl": "https://idealclover.top/feed",
         "category": "Friend",
         "status": "active"
+      },
+      {
+        "title": "kakaa",
+        "htmlUrl": "https://blog.kakaa.fun/",
+        "description": "What a difference a day made",
+        "avatarUrl": "https://blog.kakaa.fun/assets/img/avatar/profile.jpg",
+        "xmlUrl": "https://blog.kakaa.fun/feed.xml",
+        "category": "Friend",
+        "status": "active"
       }
     ],
     "lost": []

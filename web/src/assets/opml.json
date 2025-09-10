@@ -28,5 +28,11 @@
     "htmlUrl": "https://itxia.club/",
     "xmlUrl": "",
     "status": "active"
+  },
+  {
+    "title": "kakaa",
+    "htmlUrl": "https://blog.kakaa.fun/",
+    "xmlUrl": "https://blog.kakaa.fun/feed.xml",
+    "status": "active"
   }
 ]

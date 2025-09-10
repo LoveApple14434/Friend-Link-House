@@ -3,6 +3,42 @@
     "name": "LoveApple",
     "xmlUrl": "https://loveapple.icu/atom.xml",
     "htmlUrl": "https://loveapple.icu/",
+    "title": "testpage",
+    "link": "https://loveapple.icu/2025/09/10/testpage/",
+    "pubDate": "2025-09-10T11:50:22.000Z",
+    "pubDateYYMMDD": "2025-09-10",
+    "pubDateMMDD": "09-10",
+    "pubDateYY": "2025",
+    "pubDateMM": "09"
+  },
+  {
+    "name": "LoveApple",
+    "xmlUrl": "https://loveapple.icu/atom.xml",
+    "htmlUrl": "https://loveapple.icu/",
+    "title": "本地开发，远程部署：如何把你的服务器变成Git仓库？",
+    "link": "https://loveapple.icu/2025/09/10/%E6%9C%AC%E5%9C%B0%E5%BC%80%E5%8F%91%EF%BC%8C%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8A%8A%E4%BD%A0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%98%E6%88%90Git%E4%BB%93%E5%BA%93%EF%BC%9F/",
+    "pubDate": "2025-09-10T10:48:13.000Z",
+    "pubDateYYMMDD": "2025-09-10",
+    "pubDateMMDD": "09-10",
+    "pubDateYY": "2025",
+    "pubDateMM": "09"
+  },
+  {
+    "name": "kakaa",
+    "xmlUrl": "https://blog.kakaa.fun/feed.xml",
+    "htmlUrl": "https://blog.kakaa.fun/",
+    "title": "如何解决 DNS 污染",
+    "link": "https://blog.kakaa.fun/posts/SmartDNS/",
+    "pubDate": "2025-09-09T14:27:00.000Z",
+    "pubDateYYMMDD": "2025-09-09",
+    "pubDateMMDD": "09-09",
+    "pubDateYY": "2025",
+    "pubDateMM": "09"
+  },
+  {
+    "name": "LoveApple",
+    "xmlUrl": "https://loveapple.icu/atom.xml",
+    "htmlUrl": "https://loveapple.icu/",
     "title": "部署Friend-Link-House项目:开源社区初探",
     "link": "https://loveapple.icu/2025/09/09/%E9%83%A8%E7%BD%B2Friend-Link-House%E9%A1%B9%E7%9B%AE-%E5%BC%80%E6%BA%90%E7%A4%BE%E5%8C%BA%E5%88%9D%E6%8E%A2/",
     "pubDate": "2025-09-09T03:09:41.000Z",
@@ -108,6 +144,30 @@
     "pubDateMM": "07"
   },
   {
+    "name": "kakaa",
+    "xmlUrl": "https://blog.kakaa.fun/feed.xml",
+    "htmlUrl": "https://blog.kakaa.fun/",
+    "title": "更新域名",
+    "link": "https://blog.kakaa.fun/posts/UpdateDomain/",
+    "pubDate": "2025-06-03T07:38:00.000Z",
+    "pubDateYYMMDD": "2025-06-03",
+    "pubDateMMDD": "06-03",
+    "pubDateYY": "2025",
+    "pubDateMM": "06"
+  },
+  {
+    "name": "kakaa",
+    "xmlUrl": "https://blog.kakaa.fun/feed.xml",
+    "htmlUrl": "https://blog.kakaa.fun/",
+    "title": "Openclash设置指北",
+    "link": "https://blog.kakaa.fun/posts/Openclash-tutor/",
+    "pubDate": "2025-04-27T16:44:00.000Z",
+    "pubDateYYMMDD": "2025-04-27",
+    "pubDateMMDD": "04-27",
+    "pubDateYY": "2025",
+    "pubDateMM": "04"
+  },
+  {
     "name": "YDJSIR",
     "xmlUrl": "https://www.ydjsir.com.cn/atom.xml",
     "htmlUrl": "https://www.ydjsir.com.cn/",
@@ -118,6 +178,30 @@
     "pubDateMMDD": "04-12",
     "pubDateYY": "2025",
     "pubDateMM": "04"
+  },
+  {
+    "name": "kakaa",
+    "xmlUrl": "https://blog.kakaa.fun/feed.xml",
+    "htmlUrl": "https://blog.kakaa.fun/",
+    "title": "校园网openwrt配置指南",
+    "link": "https://blog.kakaa.fun/posts/openwrt-tutor/",
+    "pubDate": "2025-04-02T09:52:00.000Z",
+    "pubDateYYMMDD": "2025-04-02",
+    "pubDateMMDD": "04-02",
+    "pubDateYY": "2025",
+    "pubDateMM": "04"
+  },
+  {
+    "name": "kakaa",
+    "xmlUrl": "https://blog.kakaa.fun/feed.xml",
+    "htmlUrl": "https://blog.kakaa.fun/",
+    "title": "人应该学会切割",
+    "link": "https://blog.kakaa.fun/posts/learning-to-let-go/",
+    "pubDate": "2025-03-30T06:39:00.000Z",
+    "pubDateYYMMDD": "2025-03-30",
+    "pubDateMMDD": "03-30",
+    "pubDateYY": "2025",
+    "pubDateMM": "03"
   },
   {
     "name": "翠翠idealclover",
