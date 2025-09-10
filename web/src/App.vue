@@ -169,7 +169,7 @@ export default {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  min-height: 30rem;
+  min-height: 1rem;
   /* height: 2.5rem; */
   background-color: white;
   border-radius:8px;
