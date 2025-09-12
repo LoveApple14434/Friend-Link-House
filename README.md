@@ -31,7 +31,7 @@ Forked from [idealclover/Friend-Link-House](https://github.com/idealclover/Frien
 | 名称 | 链接 | 描述 | 头像 | RSS订阅链接 | 分类 |
 |------|------|------|------|-----------|-----|
 | LoveApple | https://loveapple.icu/ | LoveApple14434的主页 | https://loveapple.icu/img/machinist.jpg | https://loveapple.icu/atom.xml | ME! |
-| AritxOnly | https://www.aritxonly.top/ | Aritx音唯的个人小站 | https://www.aritxonly.top/res/bio.png | | Friend |
+| AritxOnly | https://www.aritxonly.top/ | Aritx音唯的个人小站 | https://www.aritxonly.top/res/bio.png | https://www.aritxonly.top/rss.xml | Friend |
 | YDJSIR | https://www.ydjsir.com.cn/ | 此时相望不相闻，愿逐月华流照君 | https://www.ydjsir.com.cn/img/avatar.png | https://www.ydjsir.com.cn/atom.xml | Friend |
 | 翠翠idealclover | https://idealclover.top/ | Stay simple, stay naive. | https://cdn.idealclover.cn/Projects/homepage/icon.png | https://idealclover.top/feed | Friend |
 | IT侠互助协会 | https://itxia.club/ | 侠之大者，为国为民；侠之小者，为友为邻。 | https://nju.itxia.cn/img/itxia-logo.png | | Organization |
