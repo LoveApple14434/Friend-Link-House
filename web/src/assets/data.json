@@ -3,18 +3,6 @@
     "name": "LoveApple",
     "xmlUrl": "https://loveapple.icu/atom.xml",
     "htmlUrl": "https://loveapple.icu/",
-    "title": "testpage",
-    "link": "https://loveapple.icu/2025/09/10/testpage/",
-    "pubDate": "2025-09-10T11:50:22.000Z",
-    "pubDateYYMMDD": "2025-09-10",
-    "pubDateMMDD": "09-10",
-    "pubDateYY": "2025",
-    "pubDateMM": "09"
-  },
-  {
-    "name": "LoveApple",
-    "xmlUrl": "https://loveapple.icu/atom.xml",
-    "htmlUrl": "https://loveapple.icu/",
     "title": "本地开发，远程部署：如何把你的服务器变成Git仓库？",
     "link": "https://loveapple.icu/2025/09/10/%E6%9C%AC%E5%9C%B0%E5%BC%80%E5%8F%91%EF%BC%8C%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2%EF%BC%9A%E5%A6%82%E4%BD%95%E6%8A%8A%E4%BD%A0%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8F%98%E6%88%90Git%E4%BB%93%E5%BA%93%EF%BC%9F/",
     "pubDate": "2025-09-10T10:48:13.000Z",
@@ -56,6 +44,18 @@
     "pubDate": "2025-08-31T13:25:00.000Z",
     "pubDateYYMMDD": "2025-08-31",
     "pubDateMMDD": "08-31",
+    "pubDateYY": "2025",
+    "pubDateMM": "08"
+  },
+  {
+    "name": "AritxOnly",
+    "xmlUrl": "https://www.aritxonly.top/rss.xml",
+    "htmlUrl": "https://www.aritxonly.top/",
+    "title": "“岛”究竟是怎样的交互？——关于澎湃OS3超级岛的思考",
+    "link": "https://aritxonly.github.io/posts/250912-about-xiaomi-hyper-island",
+    "pubDate": "2025-08-27T00:00:00.000Z",
+    "pubDateYYMMDD": "2025-08-27",
+    "pubDateMMDD": "08-27",
     "pubDateYY": "2025",
     "pubDateMM": "08"
   },
