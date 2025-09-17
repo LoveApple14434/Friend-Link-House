@@ -3,8 +3,6 @@
 [![LICENSE](https://img.shields.io/github/license/LoveApple14434/Friend-Link-House.svg?style=flat-square)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/LoveApple14434/Friend-Link-House.svg?style=flat-square)](https://github.com/LoveApple14434/Friend-Link-House/stargazers)
 
-Forked from [idealclover/Friend-Link-House](https://github.com/idealclover/Friend-Link-House).
-
 ## 📖 简介
 
 这是一个友链（博客链接）管理系统，可以自动获取友链的元数据（如标题、描述、头像），并支持友链申请与审核。
