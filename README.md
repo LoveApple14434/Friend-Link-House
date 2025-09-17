@@ -22,7 +22,6 @@
 
 感谢 [idealclover](https://github.com/idealclover)与[NJU Linux User Group](https://github.com/nju-lug/) 的优秀工作。
 
-## 友链列表
 
 以下是目前已添加的友链列表：
 
