@@ -96,7 +96,11 @@ export default {
                   link,
                   summary: summary.length > 400 ? summary.substring(0, 400) + '...' : summary,
                   pubDate: new Date(pubDate),
-                  pubDateYYMMDD: new Date(pubDate).toISOString().split('T')[0]
+                  pubDateYYMMDD: new Date(pubDate).toISOString().split('T')[0],
+                  pubDateYY: new Date(pubDate).toISOString().split('T')[0].split('-')[0],
+                  pubDateMM: new Date(pubDate).toISOString().split('T')[0].split('-')[1],
+                  pubDateDD: new Date(pubDate).toISOString().split('T')[0].split('-')[2],
+                  pubDateMMDD: new Date(pubDate).toISOString().split('T')[0].split('-')[1] + '-' + new Date(pubDate).toISOString().split('T')[0].split('-')[2]
                 };
               });
               
