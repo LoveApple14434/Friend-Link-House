@@ -14,7 +14,7 @@ const list = ref("友链列表");
 const loadData = async () => {
   try {
     // 尝试从 data.json 获取数据
-    const response = await fetch('/public/data.json');
+    const response = await fetch('/data.json');
     if (response.ok && response.value!==null){
       dataJson.value = await response.json();
       console.log('数据已从 data.json 加载');
