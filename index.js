@@ -147,7 +147,11 @@ async function fetchWithTimeout(resource, options = {}) {
           link: item.link,
           summary: summary,
           pubDate: pubDate,
-          pubDateYYMMDD: pubDate.toISOString().split('T')[0]
+          pubDateYYMMDD: pubDate.toISOString().split('T')[0],
+          pubDateYY: pubDate.toISOString().split('-')[0],
+          pubDateMM: pubDate.toISOString().split('-')[1],
+          pubDateDD: pubDate.toISOString().split('-')[2],
+          pubDateMMDD: pubDate.toISOString().split('-')[1] + '-' + pubDate.toISOString().split('-')[2]
         }
       }));
       
