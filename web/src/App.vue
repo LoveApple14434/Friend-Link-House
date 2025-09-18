@@ -21,6 +21,8 @@ const loadData = async () => {
       console.log(dataJson);
     }
     else{
+      console.log('data.json加载失败');
+      console.log(response);
       const storedData = localStorage.getItem('rssData');
       dataJson.value = JSON.parse(storedData);
       console.log('数据已从 localStorage 加载');
