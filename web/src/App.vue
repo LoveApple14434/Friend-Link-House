@@ -3,7 +3,7 @@ import BlogInfoCard from "./components/BlogInfoCard.vue";
 import RSSUpdater from "./components/RSSUpdater.vue"; // 导入 RSS 更新组件
 import { ref, onMounted } from 'vue';
 
-const basicURL = '/friend-link-house'
+const basicURL = '/Friend-Link-House'
 
 // 使用响应式数据
 const dataJson = ref([]);
