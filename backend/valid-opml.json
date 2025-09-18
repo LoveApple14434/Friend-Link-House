@@ -2,37 +2,46 @@
   {
     "title": "LoveApple",
     "htmlUrl": "https://loveapple.icu/",
+    "description": "LoveApple14434的主页",
+    "avatarUrl": "https://loveapple.icu/img/machinist.jpg",
     "xmlUrl": "https://loveapple.icu/atom.xml",
+    "category": "ME!",
     "status": "active"
   },
   {
     "title": "AritxOnly",
     "htmlUrl": "https://www.aritxonly.top/",
+    "description": "Aritx音唯的个人小站",
+    "avatarUrl": "https://www.aritxonly.top/res/bio.png",
     "xmlUrl": "https://www.aritxonly.top/rss.xml",
+    "category": "Friend",
     "status": "active"
   },
   {
     "title": "YDJSIR",
     "htmlUrl": "https://www.ydjsir.com.cn/",
+    "description": "此时相望不相闻，愿逐月华流照君",
+    "avatarUrl": "https://www.ydjsir.com.cn/img/avatar.png",
     "xmlUrl": "https://www.ydjsir.com.cn/atom.xml",
+    "category": "Friend",
     "status": "active"
   },
   {
     "title": "翠翠idealclover",
     "htmlUrl": "https://idealclover.top/",
+    "description": "Stay simple, stay naive.",
+    "avatarUrl": "https://cdn.idealclover.cn/Projects/homepage/icon.png",
     "xmlUrl": "https://idealclover.top/feed",
-    "status": "active"
-  },
-  {
-    "title": "IT侠互助协会",
-    "htmlUrl": "https://itxia.club/",
-    "xmlUrl": "",
+    "category": "Friend",
     "status": "active"
   },
   {
     "title": "kakaa",
     "htmlUrl": "https://blog.kakaa.fun/",
+    "description": "What a difference a day made",
+    "avatarUrl": "https://blog.kakaa.fun/assets/img/avatar/profile.jpg",
     "xmlUrl": "https://blog.kakaa.fun/feed.xml",
+    "category": "Friend",
     "status": "active"
   }
 ]

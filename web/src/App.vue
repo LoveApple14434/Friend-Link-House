@@ -1,7 +1,91 @@
 <script setup>
 import BlogInfoCard from "./components/BlogInfoCard.vue";
-import dataJson from "./assets/data.json";
-import opmlJson from "./assets/opml.json";
+import RSSUpdater from "./components/RSSUpdater.vue"; // 导入 RSS 更新组件
+import { ref, onMounted } from 'vue';
+
+// 使用响应式数据
+const dataJson = ref([]);
+const opmlJson = ref([]);
+const title = ref("LoveApple");
+const info = ref("仅收录友链博客文章，不代表本人观点");
+const list = ref("友链列表");
+
+// 从 localStorage 或 data.json 加载数据
+const loadData = async () => {
+  try {
+    // 尝试从 localStorage 加载数据
+    const storedData = localStorage.getItem('rssData');
+    // if (storedData) {
+    //   dataJson.value = JSON.parse(storedData);
+    //   console.log('数据已从 localStorage 加载');
+    // } else {
+    //   // 如果没有 localStorage 数据，加载默认的 data.json
+    //   const response = await fetch('./assets/data.json');
+    //   if (response.ok) {
+    //     dataJson.value = await response.json();
+    //     console.log('数据已从 data.json 加载');
+    //   } else {
+    //     console.error('无法加载 data.json');
+    //     dataJson.value = [];
+    //   }
+    // }
+    if (storedData) {
+      // 优先加载data.json
+      const response = await fetch('/data.json');
+      if (response.ok) {
+        dataJson.value = await response.json();
+        console.log('数据已从 data.json 加载');
+      } else {
+        console.error('无法加载 data.json');
+        dataJson.value = [];
+      }
+    } else {
+      //如果没有的话再加载localStorage
+      dataJson.value = JSON.parse(storedData);
+      console.log('数据已从 localStorage 加载');
+    }
+  } catch (error) {
+    console.error('加载数据失败:', error);
+    dataJson.value = [];
+  }
+};
+
+// 加载 opml.json
+const loadOpmlData = async () => {
+  try {
+    const response = await fetch('/opml.json');
+    if (response.ok) {
+      opmlJson.value = await response.json();
+      console.log('数据已从opml.json加载');
+      console.log(opmlJson.value);
+    } else {
+      console.error('无法加载 opml.json');
+      opmlJson.value = [];
+    }
+  } catch (error) {
+    console.error('加载 opml.json 失败:', error);
+    opmlJson.value = [];
+  }
+};
+
+// 处理数据更新事件
+const handleDataUpdated = (newData) => {
+  dataJson.value = newData;
+};
+
+// 组件挂载时加载数据
+onMounted(() => {
+  loadData();
+  loadOpmlData();
+  
+  // 原有的图片加载代码
+  var imgs = document.getElementsByTagName("img");
+  for (var i = 0; i < imgs.length; i++) {
+    if (imgs[i].dataset.src) {
+      imgs[i].src = imgs[i].dataset.src;
+    }
+  }
+});
 </script>
 
 <template>
@@ -27,16 +111,18 @@ import opmlJson from "./assets/opml.json";
     <div id="banner">{{ info }}</div>
   </header>
 
+  <!-- 添加 RSS 更新组件 -->
+  <RSSUpdater @data-updated="handleDataUpdated" />
+
   <div id="container">
     <main>
       <div id="main">
-        <section class="timeline" id="archives">
+        <section class="timeline" id="archives" v-if="dataJson.length > 0">
           <time class="timeline-item timeline-item__year"
             >&#160&#160{{ dataJson[0].pubDateYY }}年{{ dataJson[0].pubDateMM }}月</time
           >
-          <div v-for="(item, index) in dataJson">
+          <div v-for="(item, index) in dataJson" :key="item.link">
             <article class="timeline-item">
-              <!-- <SummaryCard :props="item" /> -->
               <time class="timeline-item__time"> {{ item.pubDateMMDD }}</time>
               <h2 class="timeline-item__title">
                 <a
@@ -62,6 +148,12 @@ import opmlJson from "./assets/opml.json";
             >
           </div>
         </section>
+        
+        <!-- 空状态提示 -->
+        <div v-else class="empty-state">
+          <p>暂无内容</p>
+          <p>请点击上方的"更新 RSS 内容"按钮获取最新内容</p>
+        </div>
       </div>
     </main>
 
@@ -126,6 +218,15 @@ export default {
 
 <style>
 @import "./assets/base.css";
+
+/* 空状态样式 */
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  font-size: 1.1rem;
+}
+
 .timeline {
   position: relative;
   margin-left: 1rem;
@@ -175,27 +276,6 @@ export default {
   border-radius:8px;
 }
 
-/* .timeline-item:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  border-radius: 50%;
-  width: 0.3rem;
-  height: 0.3rem;
-  background-color: #7b8a8b;
-  -webkit-transition: background-color 0.2s ease;
-  -moz-transition: background-color 0.2s ease;
-  -o-transition: background-color 0.2s ease;
-  -ms-transition: background-color 0.2s ease;
-  transition: background-color 0.2s ease;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-} */
-
 .timeline-item__time {
   margin-left: 1.8em;
   display: inline-block;
@@ -228,13 +308,6 @@ export default {
 
 .summary-name {
   display: inline;
-  /* font-size: medium;
-  border-radius: 5px;
-  color: #fff;
-  padding: 3px;
-  background-color: #bbb; */
-  /* margin-right: 5px;
-  margin-bottom: 5px; */
   color: grey;
   margin-right: 1.5rem;
   float: right;
