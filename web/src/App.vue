@@ -3,6 +3,8 @@ import BlogInfoCard from "./components/BlogInfoCard.vue";
 import RSSUpdater from "./components/RSSUpdater.vue"; // 导入 RSS 更新组件
 import { ref, onMounted } from 'vue';
 
+const basicURL = 'https:://loveapple.icu/friend-link-house'
+
 // 使用响应式数据
 const dataJson = ref([]);
 const opmlJson = ref([]);
@@ -14,7 +16,7 @@ const list = ref("友链列表");
 const loadData = async () => {
   try {
     // 尝试从 data.json 获取数据
-    const response = await fetch('/data.json');
+    const response = await fetch(basicURL+'/data.json');
     if (response.ok && response.value!==null){
       dataJson.value = await response.json();
       console.log('数据已从 data.json 加载');
