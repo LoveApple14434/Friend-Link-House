@@ -13,35 +13,15 @@ const list = ref("友链列表");
 // 从 localStorage 或 data.json 加载数据
 const loadData = async () => {
   try {
-    // 尝试从 localStorage 加载数据
-    const storedData = localStorage.getItem('rssData');
-    // if (storedData) {
-    //   dataJson.value = JSON.parse(storedData);
-    //   console.log('数据已从 localStorage 加载');
-    // } else {
-    //   // 如果没有 localStorage 数据，加载默认的 data.json
-    //   const response = await fetch('./assets/data.json');
-    //   if (response.ok) {
-    //     dataJson.value = await response.json();
-    //     console.log('数据已从 data.json 加载');
-    //   } else {
-    //     console.error('无法加载 data.json');
-    //     dataJson.value = [];
-    //   }
-    // }
-    if (!storedData) {
-      // 优先加载data.json
-      const response = await fetch('./data.json');
-      if (response.ok && response.value!==null) {
-        dataJson.value = await response.json();
-        console.log('数据已从 data.json 加载');
-        console.log(dataJson);
-      } else {
-        console.error('无法加载 data.json');
-        dataJson.value = [];
-      }
-    } else {
-      //如果没有的话再加载localStorage
+    // 尝试从 data.json 获取数据
+    const response = await fetch('./data.json');
+    if (response.ok && response.value!==null){
+      dataJson.value = await response.json();
+      console.log('数据已从 data.json 加载');
+      console.log(dataJson);
+    }
+    else{
+      const storedData = localStorage.getItem('rssData');
       dataJson.value = JSON.parse(storedData);
       console.log('数据已从 localStorage 加载');
       console.log(dataJson);
