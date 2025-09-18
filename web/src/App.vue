@@ -29,12 +29,13 @@ const loadData = async () => {
     //     dataJson.value = [];
     //   }
     // }
-    if (storedData) {
+    if (!storedData) {
       // 优先加载data.json
-      const response = await fetch('/data.json');
-      if (response.ok) {
+      const response = await fetch('./data.json');
+      if (response.ok && response.value!==null) {
         dataJson.value = await response.json();
         console.log('数据已从 data.json 加载');
+        console.log(dataJson);
       } else {
         console.error('无法加载 data.json');
         dataJson.value = [];
@@ -43,6 +44,7 @@ const loadData = async () => {
       //如果没有的话再加载localStorage
       dataJson.value = JSON.parse(storedData);
       console.log('数据已从 localStorage 加载');
+      console.log(dataJson);
     }
   } catch (error) {
     console.error('加载数据失败:', error);
@@ -53,7 +55,7 @@ const loadData = async () => {
 // 加载 opml.json
 const loadOpmlData = async () => {
   try {
-    const response = await fetch('/opml.json');
+    const response = await fetch('./opml.json');
     if (response.ok) {
       opmlJson.value = await response.json();
       console.log('数据已从opml.json加载');

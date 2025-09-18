@@ -19,7 +19,7 @@
 import validOpmlJson from '@/assets/valid-opml.json';
 
 // 后端 API 地址
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://loveapple.icu/apirss';
 
 export default {
   name: 'RSSUpdater',
