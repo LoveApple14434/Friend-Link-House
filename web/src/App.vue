@@ -101,6 +101,7 @@ onMounted(() => {
         <img id="logo" src="./assets/logo.jpg" alt="Logo" />
         <span id="logo-text">{{ title }}</span>
       </a>
+      
       <a
         id="logo-right"
         target="_blank"
@@ -110,12 +111,12 @@ onMounted(() => {
         <span id="logo-text">GitHub</span>
       </a>
     </div>
+    <div id="updater">
+      <!-- 添加 RSS 更新组件 -->
+      <RSSUpdater @data-updated="handleDataUpdated" />
+    </div>
     <div id="banner">{{ info }}</div>
   </header>
-
-  <!-- 添加 RSS 更新组件 -->
-  <RSSUpdater @data-updated="handleDataUpdated" />
-
   <div id="container">
     <main>
       <div id="main">
