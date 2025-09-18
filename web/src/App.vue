@@ -134,9 +134,7 @@ onMounted(() => {
                   target="_blank"
                   >{{ item.title }}</a
                 >
-                <a class="summary-name" :href="item.htmlUrl" target="_blank">{{
-                  item.name
-                }}</a>
+                <a class="summary-name" :href="item.htmlUrl" target="_blank">{{item.name}}</a>
               </h2>
             </article>
             <time
@@ -145,9 +143,7 @@ onMounted(() => {
                 index != dataJson.length - 1 &&
                 item.pubDateMM != dataJson[index + 1].pubDateMM
               "
-              >&#160&#160{{ dataJson[index + 1].pubDateYY }}年{{
-                dataJson[index + 1].pubDateMM
-              }}月</time
+              >&#160&#160{{ dataJson[index + 1].pubDateYY }}年{{dataJson[index + 1].pubDateMM}}月</time
             >
           </div>
         </section>
