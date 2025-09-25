@@ -34,3 +34,4 @@
 | 翠翠idealclover | https://idealclover.top/ | Stay simple, stay naive. | https://cdn.idealclover.cn/Projects/homepage/icon.png | https://idealclover.top/feed | Friend |
 | IT侠互助协会 | https://itxia.club/ | 侠之大者，为国为民；侠之小者，为友为邻。 | https://nju.itxia.cn/img/itxia-logo.png | | Organization |
 | kakaa | https://blog.kakaa.fun/ | What a difference a day made | https://blog.kakaa.fun/assets/img/avatar/profile.jpg | https://blog.kakaa.fun/feed.xml | Friend |
+|wyaaaattwho|www.wyaaaattwho.xyz|wyaaaattwho的主页|https://raw.githubusercontent.com/wyaaaattwho/NotionNext/refs/heads/main/public/favicon.ico| | Friend |
