@@ -35,3 +35,4 @@
 | IT侠互助协会 | https://itxia.club/ | 侠之大者，为国为民；侠之小者，为友为邻。 | https://nju.itxia.cn/img/itxia-logo.png | | Organization |
 | kakaa | https://blog.kakaa.fun/ | What a difference a day made | https://blog.kakaa.fun/assets/img/avatar/profile.jpg | https://blog.kakaa.fun/feed.xml | Friend |
 |wyaaaattwho|www.wyaaaattwho.xyz|He wanted the kingdom of God on earth |https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fbcc83a06-70e2-4332-93f9-b89147e2a6bd%2F8c491ea8-1469-4082-83e9-10dce4136cff%2F_.jpeg?table=collection&id=e49a506f-d4f7-4765-922b-75581ed41eff&t=e49a506f-d4f7-4765-922b-75581ed41eff&width=800&cache=v2| | Friend |
+| Nanjing University Linux Users Group | https://blogroll.njulug.org/ | 南京大学Linux用户组 | https://avatars.githubusercontent.com/u/84489216?s=200&v=4 |  | Organization |
