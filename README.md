@@ -35,3 +35,4 @@
 | IT侠互助协会 | https://itxia.club/ | 侠之大者，为国为民；侠之小者，为友为邻。 | https://nju.itxia.cn/img/itxia-logo.png | | Organization |
 | kakaa | https://blog.kakaa.fun/ | What a difference a day made | https://blog.kakaa.fun/assets/img/avatar/profile.jpg | https://blog.kakaa.fun/feed.xml | Friend |
 | Nanjing University Linux Users Group | https://blogroll.njulug.org/ | 南京大学Linux用户组 | https://avatars.githubusercontent.com/u/84489216?s=200&v=4 | https://blogroll.njulug.org/rss.xml | Organization |
+| 茶栗栗屋 | https://chariri.moe | 不想被自己的惰性打败。 | https://loveapple.icu/link/chariri.jpg | https://chariri.moe/feed | Friend |
