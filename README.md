@@ -12,7 +12,8 @@
 欢迎我的朋友们与其他博主们申请友链！请前往 [LoveApple的友链收集表](https://table.nju.edu.cn/dtable/forms/custom/loveapple-friends/) 提交您的信息，或者直接在 [本仓库](https://github.com/LoveApple14434/Friend-Link-House) 提交PR。我会尽快审核并添加。
 
 **如果我们素不相识，我对友链的期望：**
--   已添加本站链接。
+
+-   已添加或在可预见的未来将要本站链接。
 
 ~~怎么样是不是很容易啊快来加我吧求求你们了~~
 
@@ -34,5 +35,6 @@
 | 翠翠idealclover | https://idealclover.top/ | Stay simple, stay naive. | https://cdn.idealclover.cn/Projects/homepage/icon.png | https://idealclover.top/feed | Friend |
 | IT侠互助协会 | https://itxia.club/ | 侠之大者，为国为民；侠之小者，为友为邻。 | https://nju.itxia.cn/img/itxia-logo.png | | Organization |
 | kakaa | https://blog.kakaa.fun/ | What a difference a day made | https://blog.kakaa.fun/assets/img/avatar/profile.jpg | https://blog.kakaa.fun/feed.xml | Friend |
-| Nanjing University Linux Users Group | https://blogroll.njulug.org/ | 南京大学Linux用户组 | https://avatars.githubusercontent.com/u/84489216?s=200&v=4 | https://blogroll.njulug.org/rss.xml | Organization |
+| Nanjing University Linux Users Group | https://blogroll.njulug.org/ | 南京大学Linux用户组 | https://avatars.githubusercontent.com/u/84489216?s=200&v=4 | | Organization |
 | 茶栗栗屋 | https://chariri.moe | 不想被自己的惰性打败。 | https://loveapple.icu/link/chariri.jpg | https://chariri.moe/feed | Friend |
+| LadderOperator | https://ladderoperator.top | 庶人碌碌，自有追逐 | https://ladderoperator.top/img/avatar.jpg | https://ladderoperator.top/index.xml | Friend |
