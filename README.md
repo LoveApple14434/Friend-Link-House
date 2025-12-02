@@ -38,3 +38,4 @@
 | Nanjing University Linux Users Group | https://blogroll.njulug.org/ | 南京大学Linux用户组 | https://avatars.githubusercontent.com/u/84489216?s=200&v=4 | | Organization |
 | 茶栗栗屋 | https://chariri.moe | 不想被自己的惰性打败。 | https://loveapple.icu/link/chariri.jpg | https://chariri.moe/feed | Friend |
 | LadderOperator | https://ladderoperator.top | 庶人碌碌，自有追逐 | https://ladderoperator.top/img/avatar.jpg | https://ladderoperator.top/index.xml | Friend |
+| riverclouds | https://riverclouds.net/ | 魔术师 | https://s3.bmp.ovh/imgs/2024/02/10/02bd6754328be00d.jpg | https://riverclouds.net/atom.xml | Friend |
